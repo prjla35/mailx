@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MAILX</title>
+</head>
+<body>
+    <h1>Welcome to MAILX! </h1>
+    <h2>Fast and reliable method to send mail!</h2>
+    <h3>Note: Sometimes due to security issues , the mail has been stored in spam message!!</h3>
+
+     <form method="post" action="mailer.php">
+         <label for="sender" aria-placeholder="to whom?">To whom?:</label>
+         <input type="text" id="sender" name="sender" required><br>
+         <label for="name">Your Name:</label>
+         <input type="text" id="name" name="name" required><br>
+         <label for="email"> Your Email:</label>
+         <input type="email" id="email" name="email" required><br>
+         <label for="message">Message:</label><br>
+         <textarea id="message" name="message" rows="5" cols="30" required></textarea><br>
+         <input type="submit" name="submit" value="Submit">
+     </form>
+    <footer>Prajwol Acharya, 2023</footer>
+</body>
+</html>
